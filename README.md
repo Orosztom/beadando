@@ -10,4 +10,14 @@ A webes alkalmazás amit készítünk egy egyszerű családok számára használ
 
 A perzisztálásnak file-ba kell történnie és a program közzétételére a HERUKO platformot kell használni.
 
+**Szakterületi fogalomjegyzék:**
+
+- user: Az adatbázisban tárolt felhasználók (a hozzájuk tartozó felhasználói adatokkal)
+- todo: Az adatbázisban tárolt tennivalók elnevezése.
+
+**Használati eset modell:**
+
+Szerep körök:
+
+A program user típusú adatokat tárol, nekik van jogosultságok megtekinteni és szerkeszteni, valamint törölni todo-kat. Amikor elkezdjük használni a programot, akkor a usernek lehetősége van meglévő adatokkal belélpni, vagy regisztrálni. Mind a kettő után a felhasználó eléri az összes todo-t. Ezek után lehetősége van szerkeszteni ezeket, törölni őket, vagy újakat létrehozni, vagy kilépni.  
 
